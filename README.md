@@ -1,12 +1,18 @@
 # cclive
 
-A Claude Code status line for **live external data** — stock tickers and sports league scores. Inspired by [ccstatusline](https://github.com/sirmalloc/ccstatusline), which focuses on developer metrics; cclive focuses on the world outside your editor.
+> Stock tickers and live sports scores in your Claude Code prompt. No API keys.
+
+```sh
+npx -y cclive@latest    # in your ~/.claude/settings.json statusLine.command
+```
+
+![demo](./demo.gif)
 
 ```
 ➜  myproject  git:(main)   NIFTY 22,150 ▲ (+0.52%)   « EPL ARS 2-1 ● LIV »   NBA LAL 110-104 ● BOS   IPL MI 180/4 ● CSK
 ```
 
-The active widget is highlighted with `« »` and rotates one slot to the right each prompt render — a Bloomberg-style ticker that advances as you work.
+The active widget is highlighted with `« »` and rotates one slot to the right each prompt render — a Bloomberg-style ticker that advances as you work. Inspired by [ccstatusline](https://github.com/sirmalloc/ccstatusline) (which focuses on dev metrics); cclive focuses on the world outside your editor.
 
 ## Features
 
