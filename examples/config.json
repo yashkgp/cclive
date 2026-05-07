@@ -1,0 +1,15 @@
+{
+  "rotate": true,
+  "cacheTTL": 300,
+  "fetchTimeoutMs": 2000,
+  "separator": "  ",
+  "widgets": [
+    { "type": "git" },
+    { "type": "stock", "symbol": "^NSEI", "label": "NIFTY" },
+    { "type": "stock", "symbol": "AAPL" },
+    { "type": "espn", "sport": "soccer", "league": "eng.1", "label": "EPL" },
+    { "type": "espn", "sport": "basketball", "league": "nba", "label": "NBA" },
+    { "type": "espn", "sport": "football", "league": "nfl", "label": "NFL" },
+    { "type": "cricket", "label": "IPL", "filter": "IPL" }
+  ]
+}
