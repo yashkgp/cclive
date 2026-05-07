@@ -34,6 +34,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yashjain/cclive"
-  }
+    "url": "git+https://github.com/yashkgp/cclive.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yashkgp/cclive/issues"
+  },
+  "homepage": "https://github.com/yashkgp/cclive#readme"
 }
